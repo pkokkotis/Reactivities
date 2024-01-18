@@ -11,6 +11,8 @@ namespace API.Controllers
         public ActivitiesController(DataContext context)
         {
             _context = context;
+
+            
         }
 
         [HttpGet]
